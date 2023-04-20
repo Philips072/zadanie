@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koszyk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+
+                <img src="logo.png" class="logo">
+
+                <div class="searcher">
+                    <form>
+                        <label><input type="search"><input type="button" value="Szukaj"></label>
+                    </form>
+                </div>
+                <div class="nav-holder">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#" class="nav-link">Strona głowna</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Polubione</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Powiadomienia</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Koszyk</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="Koszyk">
+        <header>
+            <h1 style="text-align: center;">Twój Koszyk</h1>
+        </header>
+        <main>
+            <div class="shopping-container">
+                <div class="first-item">
+                <h2>Buty Nike Air Jordan 1</h2>
+                <img src="jordan.jpg" alt="jordan" style="width: 250px; ">
+                    <div class="dodaj">
+                        <button class="shop"><i title="zwiększ">+</i></button>
+                        <input type="number" placeholder="" id="ilosc">
+                        <button class="shop"><i title="zmiejsz">-</i></button>
+                        <button><img src="usun.png" alt="usun" style="width: 45px;
+                        transform: translateY(50%);"></button>
+                    </div>
+                    <br>
+                    <span>Cena: 499,99 zł</span>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div class="shopping-transaction">
+                <div class="transaction-container">
+                    <p class="produkt">
+                        Wartość produktów: <span style="float:right;">499,99 zł</span>
+                    </p>
+                    <p class="dostawa">
+                        Dostawa od: <span style="float: right">8,99 zł</span>
+                    </p>
+                    <span class="odzielenie "></span>
+                    <p class="podsumowanie">
+                        Razem z dostawą: <h2 style="float: right">508,98 zł</h2>
+                    </p>    
+                    <div class="zaplata">
+                        <button class="zap"> Zapłać później</button>
+                        <button class="zap"> Dostawa i płatność</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+    </div>
+    
+</body>
+</html>
